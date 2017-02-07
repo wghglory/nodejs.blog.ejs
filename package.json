@@ -1,0 +1,44 @@
+{
+    "name": "miaovblog",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "postinstall": "bower install && node node_modules/phantomjs-prebuilt/install.js && node ./node_modules/grunt-protractor-runner/scripts/webdriver-manager-update",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.16.0",
+        "compression": "^1.6.2",
+        "connect-flash": "^0.1.1",
+        "ejs": "^2.5.5",
+        "express": "^4.14.1",
+        "express-session": "^1.15.0",
+        "method-override": "^2.3.7",
+        "mongoose": "^4.8.1",
+        "morgan": "^1.7.0",
+        "passport": "^0.3.2",
+        "passport-local": "^1.0.0"
+    },
+    "devDependencies": {
+        "grunt": "1.0.1",
+        "grunt-concurrent": "2.3.1",
+        "grunt-contrib-csslint": "2.0.0",
+        "grunt-contrib-jshint": "1.1.0",
+        "grunt-contrib-watch": "1.0.0",
+        "grunt-env": "0.4.4",
+        "grunt-karma": "2.0.0",
+        "grunt-mocha-test": "0.13.2",
+        "grunt-node-inspector": "^0.4.2",
+        "grunt-nodemon": "0.4.2",
+        "grunt-protractor-runner": "4.0.0",
+        "karma": "1.4.1",
+        "karma-jasmine": "1.1.0",
+        "karma-phantomjs-launcher": "1.0.2",
+        "mocha": "3.2.0",
+        "should": "11.2.0",
+        "supertest": "3.0.0"
+    }
+}

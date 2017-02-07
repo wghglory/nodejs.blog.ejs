@@ -1,0 +1,15 @@
+<!-- sync version, page relocation every click -->
+
+<form action="/user/signin" method="post">
+    <div class="rightBox" id="loginBox">
+        <div class="title"><span>登录</span></div>
+        <div class="line"><span class="colDark">用户名：</span><input name="username" type="text" /><em></em></div>
+        <div class="line"><span class="colDark">密码：</span><input name="password" type="password" /><em></em></div>
+        <div class="line"><span class="colDark"></span><button>登 录</button></div>
+        <p class="textRight">还没注册？<a href="/user/signup" class="colMint">马上注册</a></p>
+        <p class="colWarning textCenter"></p>
+    </div>
+</form>
+<div class="flash">
+    <%= message %>
+</div>
