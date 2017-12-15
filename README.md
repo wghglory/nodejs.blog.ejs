@@ -18,13 +18,12 @@ passport-local  | ^1.0.0
 
 ## project startup
 
-- uncompress db
-- `npm install` to install all packages
-- `mongod --dbpath=/Users/derek/Work/Github/nodejs.miaov.blog/db --port=27018`, modify path
-- `node server` or `nodemon server`
-- localhost:8888
+- decompress db
+- `npm install`
+- `mongod --dbpath=/Users/derek/Work/nodejs.blog.ejs/db --port=27018`, modify path when necessary
+- `npm start` and review @ localhost:8888
 
-## project indroduction
+## project introduction
 
 - regular/admin login/logout
 - admin backend management, CRUD of user, category and content
